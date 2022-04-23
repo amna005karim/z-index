@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bgimg {
+    background-image: linear-gradient(rgba(39, 123, 202, 0.8), rgba(39, 123, 202, 0.8), rgba(39, 123, 202, 0.8), rgba(39, 123, 202, 0.8)), url(../images/ld2.jpg);
+    width: 100%;
+}
+
+.div {
+    padding: 20%;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
+
+.div p {
+    color: #fff;
+    text-align: center;
+}
+
+.learn-btn {
+    width: 131px;
+    margin: 0 auto;
+  
+}
+
+.btn.learn {
+    background-color: #fff;
+    font-size: 20px;
+    border-width: 3px;
+    font-weight: 600;
+    color: rgb(39, 123, 202);
+    border-color: rgb(255, 255, 255);
+}
+
+.btn.learn:hover {
+    background-color: rgb(39, 123, 202);
+    color: #fff;
+
+}
+/* overlap-cards */
+.card-body{
+    text-align: center;
+  
+}
+.card-body i{
+    font-size: 50px;
+    color:rgb(39, 123, 202) ;
+}
+.card-body  h5{
+    color: #74b2d6;
+    font-weight: bold;
+}
+.card-body p{
+    font-weight: 400;
+    color: #8f8d8d;
+}
+.card{
+    position: relative;
+    top: -140px;
+    z-index: 1;
+    font-size: 18px;
+    box-shadow: 0 0 30px rgb(0 0 0 / 20%);
+    border: none;
+    outline: none;
+}

@@ -1,0 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bgimg{
+    background-image: url(../images/ld2.jpg);
+}
